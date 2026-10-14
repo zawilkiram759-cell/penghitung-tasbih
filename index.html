@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penghitung Tasbih</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="kartu">
+    <h1>Penghitung Tasbih</h1>
+
+    <div id="angka" class="angka">0</div>
+    <p class="info">Target: <span id="teks-target">33</span></p>
+
+    <button id="tombol-tambah" class="tombol-besar">+1</button>
+    <button id="tombol-reset" class="tombol-reset">Reset</button>
+
+    <div class="atur-target">
+      <label for="input-target">Ubah target:</label>
+      <input type="number" id="input-target" min="1" placeholder="contoh: 99">
+      <button id="tombol-simpan-target">Simpan</button>
+    </div>
+
+    <p id="pesan" class="pesan"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
